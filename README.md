@@ -1,122 +1,65 @@
-# Plug.Z - Site Oficial
+# Plug.Z Institutional Website
 
-Site institucional da Plug.Z, empresa especializada em benefícios reais e serviços inteligentes para pessoas físicas e jurídicas.
+> Public-facing institutional website created for the Plug.Z brand and service ecosystem.
 
-## 🚀 Sobre o Projeto
+**HTML5 · CSS3 · JavaScript · Responsive Web Design**
 
-O site da Plug.Z apresenta uma plataforma completa de benefícios e serviços, incluindo:
+| | |
+|---|---|
+| **Type** | Institutional website |
+| **Domain** | Franchise / Benefits / Financial services |
+| **Focus** | Product communication and responsive experience |
+| **Status** | Public project |
 
-- **Z.Bank** - Soluções bancárias digitais
-- **Z.Farma** - Benefícios farmacêuticos
-- **Z.Vida** - Seguros de vida
-- **Z.Residência** - Seguros residenciais
-- **Z.Proteção** - Seguros de proteção
-- **Z.Parceiros** - Rede de parceiros e convênios
+## Overview
 
-## 🛠️ Tecnologias Utilizadas
+This repository contains an institutional web experience for Plug.Z, presenting the company and its service categories through a lightweight multi-page frontend.
 
-- **HTML5** - Estrutura semântica
-- **CSS3** - Estilização e animações
-- **JavaScript** - Interatividade e funcionalidades dinâmicas
-- **Google Fonts** - Tipografia (Poppins)
-- **SVG** - Ícones e logotipos vetorizados
+It represents the communication layer of a broader technology ecosystem rather than the internal PlugZ platform itself.
 
-## 📁 Estrutura do Projeto
+## Content structure
 
-```
-sitePlugz/
-├── index.html              # Página principal
-├── quem-somos.html         # Página institucional
-├── zbank.html              # Página Z.Bank
-├── zfarma.html             # Página Z.Farma
-├── zvida.html              # Página Z.Vida
-├── zresidencia.html        # Página Z.Residência
-├── zprotecao.html          # Página Z.Proteção
-├── zparceiros.html         # Página Z.Parceiros
-├── quero-ser.html          # Página de cadastro
-├── politica-privacidade.html # Política de privacidade
-├── style.css               # Folha de estilos principal
-├── script.js               # Scripts JavaScript
-└── imgs/                   # Diretório de imagens
-    ├── index/              # Imagens da página principal
-    ├── z-bank/             # Imagens do Z.Bank
-    ├── z-farma/            # Imagens do Z.Farma
-    ├── z-vida/             # Imagens do Z.Vida
-    ├── z-residencia/       # Imagens do Z.Residência
-    ├── z-protecao/         # Imagens do Z.Proteção
-    ├── z-parceiros/        # Imagens dos parceiros
-    └── quem-somos/         # Imagens institucionais
+The site includes dedicated experiences for company information, services, partner discovery, conversion journeys and privacy information.
+
+```text
+Institutional Website
+├── Company
+├── Services
+├── Partner Network
+├── Conversion / Contact
+└── Privacy
 ```
 
-## 🎨 Características do Design
+## Frontend characteristics
 
-- **Design Responsivo** - Adaptável a diferentes dispositivos
-- **Interface Moderna** - Layout clean e profissional
-- **Animações Suaves** - Transições e efeitos visuais
-- **Gradientes Personalizados** - Identidade visual única
-- **Navegação Intuitiva** - Menu dropdown e navegação clara
+- Responsive layout across desktop and mobile.
+- Multi-page navigation.
+- Service-specific pages.
+- Contact and registration journeys.
+- SVG-based visual assets.
+- CSS transitions and animation.
+- Lightweight browser-native implementation.
 
-## 🌟 Funcionalidades
+## Run locally
 
-- Navegação por menu dropdown
-- Páginas dedicadas para cada serviço
-- Formulários de contato e cadastro
-- Galeria de parceiros
-- Política de privacidade
-- Design responsivo para mobile e desktop
-
-## 🚀 Como Executar
-
-1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/sitePlugz.git
-```
-
-2. Navegue até o diretório:
-```bash
+git clone https://github.com/jdrpires/sitePlugz.git
 cd sitePlugz
-```
-
-3. Abra o arquivo `index.html` em seu navegador ou use um servidor local:
-```bash
-# Usando Python
 python -m http.server 8000
-
-# Usando Node.js (http-server)
-npx http-server
-
-# Usando PHP
-php -S localhost:8000
 ```
 
-4. Acesse `http://localhost:8000` no seu navegador
+Then open `http://localhost:8000`.
 
-## 📱 Compatibilidade
+## Portfolio context
 
-- ✅ Chrome (versão 90+)
-- ✅ Firefox (versão 88+)
-- ✅ Safari (versão 14+)
-- ✅ Edge (versão 90+)
-- ✅ Dispositivos móveis (iOS/Android)
+My work with PlugZ extends beyond this institutional frontend into platform architecture, integrations, fintech, BaaS, payments and multi-tenant systems.
 
-## 🤝 Contribuição
+For the broader engineering case, see the [PlugZ case study](https://github.com/jdrpires/jdrpires/blob/main/portfolio/plugz.md).
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+## Ownership
 
-## 📄 Licença
-
-Este projeto é propriedade da Plug.Z. Todos os direitos reservados.
-
-## 📞 Contato
-
-**Plug.Z**
-- Website: [www.plugz.com.br](https://www.plugz.com.br)
-- Email: contato@plugz.com.br
+This repository contains Plug.Z brand material. Brand and business assets remain subject to their respective ownership rights.
 
 ---
 
-Desenvolvido com ❤️ pela equipe Plug.Z
+**Jean Pires** · [GitHub](https://github.com/jdrpires) · [Portfolio](https://github.com/jdrpires/jdrpires)
